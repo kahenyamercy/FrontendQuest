@@ -1,20 +1,48 @@
-#intro {
-    background-color: #f8f9fa;
-    padding: 50px 0;
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+/* Styling the h1 to appear at the top-left */
+h1 {
+    color: #0078d7;
+    text-align: left;
+    margin: 0;
+    padding: 10px;
+    font-size: 3.5em;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/* Paragraph styling */
+p {
     text-align: center;
+    font-size: 1.2em;
+    margin: 20px auto;
+    max-width: 600px;
+    line-height: 1.6;
 }
-#intro h1 {
-    font-size: 50px;
-    margin-bottom: 20px;
+
+/* Add spacing and centering */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
-#intro p {
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-#intro a {
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-#intro a:hover {
-    color: #007bff;
+
+/* Box shadow for the content area */
+h1, p {
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
